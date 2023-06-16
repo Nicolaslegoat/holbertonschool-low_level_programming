@@ -7,9 +7,7 @@
 */
 
 int main(void) {
-#ifdef printf("Size on a 64-bit system:\n");
-#else printf("Size on a 32-bit system:\n");
-#endif printf("Size of char: %zu byte(s)\n", sizeof(char));
+printf("Size of char: %zu byte(s)\n", sizeof(char));
     printf("Size of short: %zu byte(s)\n", sizeof(short));
     printf("Size of int: %zu byte(s)\n", sizeof(int));
     printf("Size of long: %zu byte(s)\n", sizeof(long));
