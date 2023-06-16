@@ -2,11 +2,15 @@
 #include <stdlib.h>
 
 /**
-*  main - Description pour main
-*  Return: Always 0 (succes)
-*/
-
-int main() {
-	printf("with proper grammar, but the outcome is a piece of art,\n");
-	return (0);
+ * main - Entry point
+ *
+ * Description: Prints a sentence with proper grammar
+ *              that forms a piece of art
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+    printf("With proper grammar, but the outcome is a piece of art,\n");
+    return (0);
 }
