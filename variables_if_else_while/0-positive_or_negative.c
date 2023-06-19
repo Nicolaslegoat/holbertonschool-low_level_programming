@@ -1,9 +1,11 @@
 #include <stdlib.h>
-#include <stdio.h>
 #include <time.h>
-/* more headers goes there */
-/* This program will assign a random number */
-/* betty style doc for function main goes there */
+#include <stdio.h>
+/**
+* Main - All my programm
+* Return: Always(Success)
+*/
+
 int main(void)
 {
 	int n;
