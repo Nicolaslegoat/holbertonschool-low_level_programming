@@ -2,9 +2,8 @@
 #include <stdio.h>
 #include <time.h>
 /* more headers goes there */
-/*main - Prints if number is positive, zero or negative*/
+
 /* betty style doc for function main goes there */
-/* Return: Always (Success)*/
 int main(void)
 {
 	int n;
