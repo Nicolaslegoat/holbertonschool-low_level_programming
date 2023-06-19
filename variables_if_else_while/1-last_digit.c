@@ -18,10 +18,11 @@ int main(void)
 	}
 	if (last_digit == o)
 	{
-		printf("%d and %d 0/n", n, last_digit)
+		printf("%d and %d 0/n", n, last_digit);
 	}
 	if (last_digit <= 0)
 	{
-		printf ("%d and %d less than 6 and not 0/n", n, last_digit)
+		printf("%d and %d less than 6 and not 0/n", n, last_digit);
 			return (0);
 	}
+}
