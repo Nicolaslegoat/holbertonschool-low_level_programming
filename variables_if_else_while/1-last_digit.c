@@ -8,11 +8,11 @@
 int main(void)
 {
 	int n, last_digit;
-	last_digit = nbr % 10;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
+	last_digit = n % 10;
 	if (last_digit > 5)
 	{
 		printf("%d and %d greater than 5/n", n, last_digit);
@@ -24,6 +24,6 @@ int main(void)
 	if (last_digit <= 0)
 	{
 		printf("%d and %d less than 6 and not 0/n", n, last_digit);
-			return (0);
-	}
+	}	
+	return (0);
 }
