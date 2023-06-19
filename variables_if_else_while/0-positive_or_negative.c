@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <time.h>
 /* more headers goes there */
-/* Description: This function generates a random number and determines if it is positive, negative, or zero.*/
+/* This program will assign a random number and determines if it is positive, negative, or zero.*/
 /* betty style doc for function main goes there */
 int main(void)
 {
