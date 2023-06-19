@@ -15,15 +15,15 @@ int main(void)
 	last_digit = n % 10;
 	if (last_digit > 5)
 	{
-		printf("%d and %d greater than 5/n", n, last_digit);
+		printf("%d and %d greater than 5\n", n, last_digit);
 	}
 	if (last_digit == 0)
 	{
-		printf("%d and %d 0/n", n, last_digit);
+		printf("%d and %d 0\n", n, last_digit);
 	}
 	if (last_digit <= 0)
 	{
-		printf("%d and %d less than 6 and not 0/n", n, last_digit);
+		printf("%d and %d less 6 and not 0\n", n, last_digit);
 	}	
 	return (0);
 }
