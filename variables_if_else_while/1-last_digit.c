@@ -16,7 +16,7 @@ int main(void)
 	{
 		printf("%d and %d greater than 5/n", n, last_digit);
 	}
-	if (last_digit == o)
+	if (last_digit == 0)
 	{
 		printf("%d and %d 0/n", n, last_digit);
 	}
