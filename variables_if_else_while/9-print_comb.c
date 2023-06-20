@@ -14,12 +14,10 @@ int main(void)
 	{
 		putchar(a);
 		if (a != 57)
-	}
-	{
-		putchar(',')
-	}
-	{
-		putchar('\n');
-	}
-	return (0);
-}
+		{
+			putchar(',');
+			{
+				{
+					putchar('\n');
+					return (0);
+				}
