@@ -1,8 +1,15 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include "main.h"
 
 /**
-*  main - Description pour main
-*  Return: Always 0 (succes)
+* _islower - Description pour main
+* @c: The character to be checked.
+* Return: Always 0 (succes)
 */
+
+int _islower(int c)
+{
+	if (c >= 'a' && c <= 'z')
+		return (1);
+	else
+		return (0);
+}
