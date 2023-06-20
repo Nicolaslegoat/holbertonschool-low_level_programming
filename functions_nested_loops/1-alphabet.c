@@ -1,8 +1,15 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include <main.h>
 
 /**
-*  main - Description pour main
-*  Return: Always 0 (succes)
-*/
+ * print_alphabet - prints the alphabet in lowercase, followed by a new line.
+ */
+int print_alphabet(void)
+{
+	char letter;
+
+	for (letter = 'a'; letter <= 'z'; letter++)
+	{
+		_putchar(letter)
+	}
+	return (0);
+}
