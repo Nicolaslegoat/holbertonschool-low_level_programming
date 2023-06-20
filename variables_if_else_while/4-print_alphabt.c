@@ -12,10 +12,13 @@ int main(void)
 
 	for (a = 97; a <= 122; a++)
 	{
-		putchar(a);
+
+		if (a != 113 && a != 101)
+		{
+			putchar(a);
+		}
 	}
-	if (a == 113 ; a == 101)
-	{
-		putchar('\n');
-	}
+	putchar('\n');
+
 	return (0);
+}
