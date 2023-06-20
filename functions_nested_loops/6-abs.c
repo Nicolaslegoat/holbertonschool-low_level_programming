@@ -1,8 +1,12 @@
-#include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
-
+#include "main.h"
 /**
-*  main - Description pour main
-*  Return: Always 0 (succes)
+ * main - Description pour main
+ * Return: Always 0 (succes)
 */
+
+int main(void)
+{
+	int x, y;
+
+	y = abs(x);
