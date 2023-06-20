@@ -1,8 +1,26 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include "main.h"
 
 /**
-*  main - Description pour main
-*  Return: Always 0 (succes)
-*/
+ * print_sign - Description fonction
+ * @n: The character to be checked.
+ * Return: Always 0 (succes)
+ */
+
+int print_sign(int n)
+{
+        if (n > 0){
+                printf("+\n", n);
+        }
+        {       return (1);
+        }
+        if (n == 0){
+                print("0\n", n);
+        }
+        {       return (0);
+        }
+        else (n < 0){
+                printf("-\n", n)
+        }
+        {
+                return (0);}
+}
