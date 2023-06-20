@@ -1,12 +1,15 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * main - Description pour main
+ * _abs - Description pour main
+ * @n: character
  * Return: Always 0 (succes)
-*/
+ */
 
-int main(void)
+int _abs(int n)
 {
-	int x, y;
-
-	y = abs(x);
+	if (n >= 0)
+		return (n);
+	else
+		return (-n);
+}
