@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_to_98 - Description pour main
- * @n: number
- * Return: Always 0 (succes)
+* print_to_98 - Description pour main
+* @n: number
+* Return: Always 0 (succes)
  */
 void print_to_98(int n)
 {
