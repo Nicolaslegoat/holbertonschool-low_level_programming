@@ -1,8 +1,12 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-
+#include "main.h"
 /**
-*  main - Description pour main
+*  add - Description pour main
 *  Return: Always 0 (succes)
 */
+
+int add(int, int);
+{
+	int a, b;
+
+	return (a + b);
+}
