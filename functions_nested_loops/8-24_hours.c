@@ -1,8 +1,22 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-
+#include "main.h"
 /**
-*  main - Description pour main
-*  Return: Always 0 (succes)
-*/
+* jack_bauer - Description pour main
+* Return: Always 0 (succes)
+ */
+
+void jack_bauer(void)
+{	int hour, minute;
+
+	for (hour = 0; hour < 24; hour++)
+	{
+		for (minute = 0; minute < 60; minute++)
+		{
+			_putchar((hour / 10) + '0');
+			_putchar((hour % 10) + '0');
+			_putchar(':');
+			_putchar((minute / 10) + '0');
+			_putchar((minute % 10) + '0')
+			_putchar('\n');
+		}
+	}
+}
