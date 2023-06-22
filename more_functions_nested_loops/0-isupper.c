@@ -3,7 +3,9 @@
 /**
 * _isupper - prototype fonction
 * @c: variable
+* Return: 1 if character is uppercase, 0 othrerwise.
 */
+
 
 int _isupper(int c)
 {
