@@ -4,7 +4,7 @@
 *  Return: Always 0 (succes)
 */
 
-int add(int, int)
+int add(int a, int b)
 {
 	int a, b;
 
