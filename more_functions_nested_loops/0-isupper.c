@@ -3,7 +3,7 @@
 /**
 * _isupper - prototype fonction
 * @c: variable
-*/
+ */
 
 int _isupper(int c)
 {
