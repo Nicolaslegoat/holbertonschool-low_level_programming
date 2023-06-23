@@ -2,7 +2,6 @@
 /**
  * print_triangle - fonction square.
  * @size: Print a triangle with #.
- * Return: Always 0.
  */
 
 void print_triangle(int size)
