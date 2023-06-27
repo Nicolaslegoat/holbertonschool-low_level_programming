@@ -4,12 +4,15 @@
 /**
  * _strlen - fonction
  * @s: var
+ * Return: length of str
  */
 int _strlen(char *s)
 {
 	size_t length = 0;
-	while (*s++){
+
+	while (*s++)
+	{
 		length++;
 	}
-	return length;
+	return (length);
 }
