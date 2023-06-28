@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * _strncat - fonction
- * @dest: var
- * @src; var
- * @n: var
- */
+* _strncat - fonction
+* @dest: var
+* @src: var
+* @n: var
+*/
 char *_strncat(char *dest, char *src, int n)
 {
 	int i = 0;
