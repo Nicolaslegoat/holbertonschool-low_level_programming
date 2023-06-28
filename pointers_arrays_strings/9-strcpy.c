@@ -3,14 +3,15 @@
  * _strcpy - fonction
  * @dest: var
  * @src: var
+ * Return: dest here
  */
 char *_strcpy(char *dest, char *src)
 {
 	int i = 0;
 
-	while (*src)
+	while (src[i])
 	{
-		*dest = *src;
+		dest[i] = src[i];
 		i++;
 	}
 	return (dest);
