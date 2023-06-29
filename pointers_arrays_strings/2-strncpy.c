@@ -1,11 +1,11 @@
 #include "main.h"
-#include <stdio.h>
 /**
- * _strncpy - fonction
- * @dest: var
- * @src: var
- * @n: var
- */
+* _strncpy - fonction
+* @dest: var
+* @src: var
+* @n: var
+* Return: dest here
+*/
 char *_strncpy(char *dest, char *src, int n)
 {
 	int i = 0;
