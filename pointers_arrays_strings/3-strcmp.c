@@ -3,6 +3,7 @@
  * _strcmp - fct
  * @s1: var
  * @s2: var
+ * Return: pointeurs
  */
 int _strcmp(char *s1, char *s2)
 {
