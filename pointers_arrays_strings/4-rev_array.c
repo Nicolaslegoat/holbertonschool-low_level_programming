@@ -1,12 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * reverse_array - fct
- * @a: var ptr
- * @n: var
- * @i: var
- * @j: var
- */
+* reverse_array - fct
+* @a: var ptr
+* @n: var
+*/
 void reverse_array(int *a, int n)
 {
 	int i;
