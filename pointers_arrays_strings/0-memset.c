@@ -3,7 +3,7 @@
  * _memset - fct
  * @s: var
  * @b: var
- * @n/ var
+ * @n: var
  * Return: memory here
  *
  */
