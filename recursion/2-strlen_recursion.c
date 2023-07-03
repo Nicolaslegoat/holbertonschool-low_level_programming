@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- *
- *
+ * _strlen_recursion - fct
+ * @s: var
  *
  */
 int _strlen_recursion(char *s)
