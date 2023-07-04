@@ -2,7 +2,7 @@
 /**
  * _strlen_recursion - fct
  * @s: var
- *
+ * Return: I here
  */
 int _strlen_recursion(char *s)
 {
@@ -13,5 +13,5 @@ int _strlen_recursion(char *s)
 		i++;
 		i += _strlen_recursion(++s);
 	}
-	return(i);
+	return (i);
 }
