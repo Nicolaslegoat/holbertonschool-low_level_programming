@@ -14,14 +14,14 @@ int find_sqrt(int num, int root)
 		return (root);
 
 	if (root == num / 2)
-		return (-1);
+		return (1);
 
 	return (find_sqrt(num, root + 1));
 }
 /**
  * _sqrt_recursion - fct
  * @n: var
- * Return: 
+ * Return: here fct
  *
  */
 int _sqrt_recursion(int n)
@@ -34,5 +34,5 @@ int _sqrt_recursion(int n)
 	{
 		return (1);
 	}
-		return (find_sqrt(n, root));
+	return (find_sqrt(n, root));
 }
