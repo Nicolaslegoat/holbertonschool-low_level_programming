@@ -1,16 +1,18 @@
 #include "main.h"
-
 /**
-* _isdigit - prototype fonction
-* @c: variable
-* Return: 1 if character is digit, 0 othrerwise.
-*/
-
-
-int _isdigit(int c)
+ * _memcpy -fct
+ * @dest: var
+ * @src: var
+ * @n: var
+ * Return: here dest
+ */
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	if (c >= 48 && c <= 57)
-		return (1);
-	else
-		return (0);
+	unsigned int i;
+
+	for (i = 0; i < n; i++)
+	{
+		dest[i] = src[i];
+	}
+	return (dest);
 }

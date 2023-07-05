@@ -1,18 +1,18 @@
 #include "main.h"
-/**
- * _strchr - fct
- * @s: var
- * @c: var
- * Return: Return to 0
- */
-char *_strchr(char *s, char c)
-{
-	int i;
+#include <stddef.h>
 
-	for (i = 0; s[i] >= '\0'; i++)
+/**
+ * _strlen - fonction
+ * @s: var
+ * Return: length of s
+ */
+int _strlen(char *s)
+{
+	size_t length = 0;
+
+	while (*s++)
 	{
-		if (s[i] == c)
-			return (s + i);
+		length++;
 	}
-	return ('\0');
+	return (length);
 }

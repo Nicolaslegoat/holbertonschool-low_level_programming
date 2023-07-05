@@ -1,14 +1,17 @@
 #include "main.h"
-
 /**
- * _puts - fonction
- * @str: var
- *
+ * _strcmp - fct
+ * @s1: var
+ * @s2: var
+ * Return: pointeurs
  */
-
-void _puts(char *str)
+int _strcmp(char *s1, char *s2)
 {
-	while (*str)
-		_putchar(*str++);
-	_putchar('\n');
+	while (*s1 && *s2 && *s1 == *s2)
+	{
+		s1++;
+		s2++;
+	}
+
+	return (*s1 - *s2);
 }
