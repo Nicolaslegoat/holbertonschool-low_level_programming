@@ -1,11 +1,14 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
-#include <string.h>
 
-void _puts(char *s)
+/**
+ * _puts - fonction
+ * @str: var
+ *
+ */
+
+void _puts(char *str)
 {
-    puts(s);
+	while (*str)
+		_putchar(*str++);
+	_putchar('\n');
 }
-

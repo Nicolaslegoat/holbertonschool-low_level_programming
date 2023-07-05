@@ -1,11 +1,14 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
-#include <string.h>
 
-int _strcmp(char *s1, char *s2)
+/**
+ * _puts - fonction
+ * @str: var
+ *
+ */
+
+void _puts(char *str)
 {
-    return strcmp(s1, s2);
+	while (*str)
+		_putchar(*str++);
+	_putchar('\n');
 }
-

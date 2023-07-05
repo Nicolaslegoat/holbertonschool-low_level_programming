@@ -1,11 +1,22 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
-#include <string.h>
-
+/**
+ * _strncat - fonction
+ * @dest: var
+ * @src: var
+ * @n: var
+ * Return: dest here
+ */
 char *_strncat(char *dest, char *src, int n)
 {
-    return strncat(dest, src, n);
-}
+	int i = 0;
+	int j = 0;
 
+	while (dest[i++])
+		j++;
+
+	for (i = 0; src[i] && i < n; i++)
+	{
+		dest[j++] = src[i];
+	}
+	return (dest);
+}

@@ -1,10 +1,17 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
-#include <string.h>
+
+/**
+ * _isalpha - Description fonction
+ * @c: The character to be checked.
+ * Return: Always 0 (succes)
+ */
 
 int _isalpha(int c)
 {
-	return isalpha(c);
+	if (c >= 'a' && c <= 'z')
+		return (1);
+	if (c >= 'A' && c <= 'Z')
+		return (1);
+	else
+		return (0);
 }
