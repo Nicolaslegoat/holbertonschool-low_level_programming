@@ -4,7 +4,6 @@
  * main - fct
  * @argc: var
  * @argv: var
- * @result: var multiple
  * Return: Always 0.
  */
 int main(int argc, char *argv[])
