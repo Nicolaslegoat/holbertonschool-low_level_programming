@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * str_concat - fct
+ * string_nconcat - fct
  * @s1: the first string to concatenated
  * @s2: the second string to concatenated
  * @n: var
