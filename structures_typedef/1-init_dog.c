@@ -1,14 +1,14 @@
-include <stdlib.h>
-include "dog.h"
+#include <stdlib.h>
+#include "dog.h"
 /**
  * init_dog - fct qui creer une var
- * @d; pointeur general
+ * @d: pointeur general
  * @name: nom du chien
  * @age: age du chien
  * @owner: proprio
  *
  */
-void init_dog(struct dog *d, char *name, float age, char *owner);
+void init_dog(struct dog *d, char *name, float age, char *owner)
 {
 	if (d != NULL)
 	{
