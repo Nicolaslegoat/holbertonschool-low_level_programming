@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * append_to_file - Appends text at the end of a file
+ * append_text_to_file - Appends text at the end of a file
  * @filename: ptr to name of file
  * @text_content: the string to add the end of the file
  * Return: -1
