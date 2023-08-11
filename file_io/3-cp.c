@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - main
+ * main - fct to count argument
  * @argc: the argument count
  * @argv: the argument vector
  * Return: 
