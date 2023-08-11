@@ -2,10 +2,10 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - fct to count argument
+ * main - fonction to define main
  * @argc: the argument count
  * @argv: the argument vector
- * Return: 
+ * Return: the main ok
  */
 int main(int argc, char **argv)
 {
