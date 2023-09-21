@@ -1,6 +1,6 @@
 #include "search_algos.h"
 /**
- * linear_search - permorms lineal searching.
+ * linear_search - permorms lineal searching
  * @array: array to search in
  * @size: size of the array
  * @value: target value to be searched
